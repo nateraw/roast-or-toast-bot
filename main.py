@@ -193,8 +193,9 @@ def main():
     while True:
         try:
             # Dummy request to keep the Hugging Face Space awake
-            logger.info("Pinging Hugging Face Space...")
-            requests.get("https://team6-roast.hf.space/", timeout=5)
+            # Not really working as far as I can tell
+            # logger.info("Pinging Hugging Face Space...")
+            # requests.get("https://team6-roast.hf.space/", timeout=5)
             logger.info("Replying to mentions...")
             reply_to_mentions()
         except Exception as e:
