@@ -1,0 +1,17 @@
+name: Sync with Hugging Face Hub
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+   build:
+    uses: nateraw/huggingface-sync-action/.github/workflows/sync_with_hf_hub.yml@main
+    with:
+      github_repo_id: nateraw/roast-or-toast-bot
+      huggingface_repo_id: team6/roast
+      repo_type: space
+      space_sdk: docker
+    secrets:
+      hf_token: ${{ secrets.HF_TOKEN }}
