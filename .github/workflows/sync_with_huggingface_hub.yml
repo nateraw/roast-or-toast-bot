@@ -12,6 +12,8 @@ jobs:
       github_repo_id: nateraw/roast-or-toast-bot
       huggingface_repo_id: team6/roast
       repo_type: space
-      space_sdk: docker
+      # HACK - this should be docker but latest huggingface_hub (0.11.1) doesn't support it.
+      # So, instead, we say gradio, as it won't really do anything since we already created the repo.
+      space_sdk: gradio
     secrets:
       hf_token: ${{ secrets.HF_TOKEN }}
