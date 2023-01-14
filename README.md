@@ -28,3 +28,16 @@ Tag [@RoastOrToastGPT](https://twitter.com/RoastOrToastGPT) in a reply to a twee
 
 - [ ] Make prompts more consistent so we don't get so much nonsense/simply repeated tweets
 - [ ] Fix hosting (preferably on Spaces) so I don't have to reset it every 30 mins manually
+
+## Contributors
+
+This project was mostly hacked together in ~3 hours during the Hugging Face 2023 offsite Hackathon by the following team:
+
+- Thibault Goehringer
+- Derek Thomas
+- Lysandre Debut
+- Scott Edelstein
+- Ola Piktus
+- Michelle Habonneau
+- Thomas Wolf
+- Nate Raw
