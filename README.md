@@ -28,6 +28,7 @@ Tag [@RoastOrToastGPT](https://twitter.com/RoastOrToastGPT) in a reply to a twee
 
 - [ ] Make prompts more consistent so we don't get so much nonsense/simply repeated tweets
 - [ ] Fix hosting (preferably on Spaces) so I don't have to reset it every 30 mins manually
+- [ ] Add instructions on how to run locally
 
 ## Contributors
 
