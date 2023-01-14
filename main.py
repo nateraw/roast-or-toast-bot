@@ -69,7 +69,7 @@ def roast(text):
 
 def toast(text):
     return response(
-        f"Give the user a genuine and unique compliment to make them feel good about themselves based on the info in a hood style manner.\n\nInfo: {text}\n\nResponse:"
+        f"Give the user a genuine and unique compliment to make them feel good about themselves based on the info in a good style manner.\n\nInfo: {text}\n\nResponse:"
     )
 
 
